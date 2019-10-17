@@ -1,11 +1,9 @@
-package B42;
-
 import java.util.Vector;
 
 /**
  * Created by HuGuodong on 2019-10-17.
  */
-public class B485_overflow {
+public class B4_8_5_overflow {
 
 
   public static void main(String[] args) {
