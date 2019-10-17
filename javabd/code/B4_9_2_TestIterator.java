@@ -6,13 +6,14 @@ import java.util.List;
 /**
  * Created by HuGuodong on 2019-10-17.
  */
-public class B492_TestIterator {
+public class B4_9_2_TestIterator {
 
   public static void main(String[] args) {
     List<String> l = new LinkedList<>();
     l.add("a");
     l.add("b");
     l.add("c");
+
 
     for(Iterator<String> iter = l.iterator(); iter.hasNext();){
       String str = iter.next();
@@ -27,7 +28,7 @@ public class B492_TestIterator {
 //    Exception in thread "main" java.util.ConcurrentModificationException
 //    at java.util.LinkedList$ListItr.checkForComodification(LinkedList.java:966)
 //    at java.util.LinkedList$ListItr.next(LinkedList.java:888)
-//    at B492_TestIterator.main(B492_TestIterator.java:18)
+//    at B4_9_2_TestIterator.main(B4_9_2_TestIterator.java:18)
 
   }
 }
