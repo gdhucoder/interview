@@ -37,6 +37,7 @@ public class Bank
       accounts[to] += amount;
       System.out.printf(" Total Balance: %10.2f%n", getTotalBalance());
       notifyAll();
+//      notify();
    }
 
    /**

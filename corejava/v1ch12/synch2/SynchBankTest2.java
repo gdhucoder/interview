@@ -8,7 +8,7 @@ package synch2;
  */
 public class SynchBankTest2
 {
-   public static final int NACCOUNTS = 100;
+   public static final int NACCOUNTS = 10;
    public static final double INITIAL_BALANCE = 1000;
    public static final double MAX_AMOUNT = 1000;
    public static final int DELAY = 10;
@@ -26,6 +26,8 @@ public class SynchBankTest2
                {
                   int toAccount = (int) (bank.size() * Math.random());
                   double amount = MAX_AMOUNT * Math.random();
+//                  amount = 2*INITIAL_BALANCE * Math.random();
+//                  bank.transfer(toAccount, fromAccount, amount);
                   bank.transfer(fromAccount, toAccount, amount);
                   Thread.sleep((int) (DELAY * Math.random()));
                }
