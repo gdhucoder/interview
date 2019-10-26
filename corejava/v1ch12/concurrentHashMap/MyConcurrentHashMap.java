@@ -25,16 +25,14 @@ public class MyConcurrentHashMap {
     });
     map.forEach(100, (k, v) -> System.out.println(k + "->" + v));
 
-    int[] a = {1,10,1,2,3,4,7,5,4,3,1,2};
+    int[] a = {1, 10, 1, 2, 3, 4, 7, 5, 4, 3, 1, 2};
     Arrays.parallelSort(a);
     System.out.println(Arrays.toString(a));
-    String[] strings = {"A", "Z", "C","B"};
-    Arrays.parallelSort(strings,0,3);
+    String[] strings = {"A", "Z", "C", "B"};
+    Arrays.parallelSort(strings, 0, 3);
     System.out.println(Arrays.toString(strings));
 //    [1, 1, 1, 2, 2, 3, 3, 4, 4, 5, 7, 10]
 //    [A, C, Z, B]
-
-
 
   }
 }
