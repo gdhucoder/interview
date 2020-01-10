@@ -1,6 +1,6 @@
 # Gazebo 101
 
-## Progess: [gazebo tutorials-mid](http://gazebosim.org/tutorials?cat=guided_i)
+## Progress: [gazebo tutorials-mid](http://gazebosim.org/tutorials?cat=guided_i)
 
 Construct a velodyne LiDAR **done.**
 
