@@ -12,5 +12,7 @@ Upload Velodyne model **done**
 
 Control plugin **done.**
 
-Connect to ROS 
+Connect to ROS **done**.
+
+​	Ros transport mechanism
 
