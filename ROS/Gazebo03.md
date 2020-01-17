@@ -12,3 +12,9 @@ Ros node, topic, subscribe
 
 Ros publish topic to send message.
 
+7 1 3 6 4
+
+-6 2 3 -2
+
+
+
