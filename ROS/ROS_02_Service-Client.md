@@ -2,7 +2,7 @@ ROS Service Client
 
 launch a service.
 
-```
+```xml
 <launch>
 
   <include file="$(find iri_wam_reproduce_trajectory)/launch/start_service.launch"/>
