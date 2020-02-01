@@ -34,9 +34,9 @@ Writing a Simple Publisher and Subscriber(Python)**DONE**
 
 Examining the Simple Service and Client**DONE**
 
-Recording and playing back data**DONE**
+Recording and playing back data **DONE**
 
-Getting started with rostf**DONE**
+Getting started with rostf **DONE**
 
-Navigating the ROS wiki**DONE**
+Navigating the ROS wiki **DONE**
 
