@@ -63,4 +63,15 @@ the launch file looks like this:
 </launch>
 ```
 
+
+
+Problem encountered:
+
+Can not get map
+
+![2020-02-02_000.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-02_000.jpg)
+
+Warnning
+
 ![2020-01-30_023.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-01-30_023.jpg)
+
