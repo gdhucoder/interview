@@ -1,3 +1,5 @@
+
+
 Robot Localization
 
 Pose Array - particalecloud
@@ -220,6 +222,15 @@ Use Python code to send goals:
 ```
 roslaunch husky_navigation move_base_demo.launch
 roslaunch send_goals send_goals_client.launch
+```
+
+Send_goals_client.launch
+
+```
+<launch>
+    <node pkg="send_goals" type="send_goal_client.py" name="move_base_action_client" output="screen">        
+    </node>
+</launch>
 ```
 
 send_goal_client.py
