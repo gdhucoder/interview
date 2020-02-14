@@ -105,3 +105,21 @@ j2 = Jedi('Anakin')
 j2.say_hi()
 ```
 
+How to load local class file in the same dir:
+
+```
+create an __init__.python
+then you can like this from xx file name import Class
+```
+
+```java
+      for (int i = 0; i < src.length; i++) 
+        for (int j = 0; j < src[0].length; j++) 
+          dis[i][j] = src[i][j];
+      
+      for (int j = 0; j < src.length; j++) 
+        for (int i = 0; i < src[0].length; i++) 
+          dis[i][j] = src[i][j];
+    
+```
+
