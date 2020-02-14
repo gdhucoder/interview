@@ -14,10 +14,6 @@
 3. Evaluate each trajectory
 4. Pick highest-score trajectory
 
-
-
-![2020-02-06_000.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-06_000.jpg)
-
 ## Summary
 
 the move_base node is the node that coordinates all of the Path Planning System.
@@ -26,8 +22,6 @@ the move_base node is the node that coordinates all of the Path Planning System.
 - local planner
 - costmaps
 - recovery behaviors
-
-Overall
 
 ### Overall
 
@@ -43,7 +37,7 @@ Dynamic Configure:
 
 `rosrun rqt_reconfigure rqt_reconfigure`
 
-![2020-02-06_001.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-06_001.jpg)
+
 
 
 
