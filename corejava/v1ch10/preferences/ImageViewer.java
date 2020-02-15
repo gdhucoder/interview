@@ -38,7 +38,9 @@ class ImageViewerFrame extends JFrame
    public ImageViewerFrame()
    {
       Preferences root = Preferences.userRoot();
-      Preferences node = root.node("/com/horstmann/corejava/ImageViewer");
+      // preferences.ImageViewer
+//      Preferences node = root.node("/preferences/ImageViewer");
+      var node = Preferences.userNodeForPackage(this.getClass());
       // get position, size, title from properties
       int left = node.getInt("left", 0);
       int top = node.getInt("top", 0);

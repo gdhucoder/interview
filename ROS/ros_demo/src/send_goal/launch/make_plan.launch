@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="send_goals" type="make_plan_caller.py" name="make_plan_client" output="screen">
+    </node>
+</launch>

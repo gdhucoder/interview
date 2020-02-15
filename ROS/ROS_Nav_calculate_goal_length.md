@@ -1,3 +1,12 @@
+
+Step 1: launch odom
+
+`roslaunch husky_navigation move_base_demo.launch`
+
+Step 2: launch `make_plan.launch`
+
+`roslaunch send_goal make_plan.launch`
+
 Code: 
 
 ```xml
