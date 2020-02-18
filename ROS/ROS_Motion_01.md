@@ -36,3 +36,15 @@ Workspaces which are very hard for human to manage.
 - too small workspaces
 - too big workspaces
 - workspaces where too much percison is needed.
+
+RB-Kairos robot
+
+![2020-02-18_003.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-18_003.jpg)
+
+Fetch Robot
+
+![2020-02-18_004.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-18_004.jpg)
+
+RB-1 
+
+![2020-02-18_005.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-18_005.jpg)
