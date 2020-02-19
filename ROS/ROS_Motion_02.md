@@ -130,4 +130,4 @@ rostopic echo -n1 /camera/depth/points/header/frame_id
 
 > A gripper is a device that enables the holding of an object to be manipulated. The easier way to describe a gripper is to think of the human hand. Just like a hand, a gripper enables holding, tightening, handling, and releasing of an object. A gripper can be attached to a robot or it can be part of a fixed automation system. Many styles and sizes of grippers exist so that the correct model can be selected for the application.
 
-
+![2020-02-18_012.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-18_012.jpg)
