@@ -2,6 +2,25 @@
 
 使用图形界面进行运动规划
 
+启动MoveIt！助手
+
+`roslaunch moveit_setup_assistant setup_assistant.launch`
+
+![2020-02-18_015.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-18_015.jpg)
+
+- start
+- self-collisions
+- virtual joints
+- planning groups
+- robot poses
+- end effectors
+- passive joints
+- ros control
+- simulation
+- 3D perception
+- author information
+- configuration files
+
 ![2020-02-18_013.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-18_013.jpg)
 
 ##  move_group node
