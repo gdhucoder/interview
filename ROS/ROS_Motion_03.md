@@ -51,5 +51,3 @@ MoveIt! 用插件的方式提供了极大的方便，可以切换inverse kinemat
 Collision Checking 碰撞检测 用于发现planning scene中的碰撞。使用FCL（Fexible Collison Libaray）软件包。
 
 碰撞检测是在运动规划中耗时的任务。为了减少计算量，MoveIt！提供了一个矩阵，叫做ACM（Allowed Collision Matrix）。它包含需要检测碰撞的pairs，1表示不需要检测。优化ACM可以减少碰撞检测的计算量。
-
-
