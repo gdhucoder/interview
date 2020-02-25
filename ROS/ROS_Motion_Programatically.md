@@ -78,10 +78,9 @@ group.go(wait=True)
 moveit_commander.roscpp_shutdown()
 ```
 
-
-`get_data.py`
 ![2020-02-18_026.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-18_026.jpg)
 
+`get_data.py`
 
 ```python
 #! /usr/bin/env python
