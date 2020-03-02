@@ -39,4 +39,6 @@ It becomes smaller?
 
 ![2020-03-02_003.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-02_003.jpg)
 
+After using CAD models in gazebo
 
+![2020-03-02_004.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-02_004.jpg)
