@@ -87,3 +87,7 @@ fetch_tc -> fetch_gazebo -> launch -> main_multiple.launch
 cp -R /home/simulations/public_sim_ws/src/all/fetch_tc/ ~/pub_sim
 
 rospack list | grep fetch
+
+Problem
+
+![2020-02-26_001.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-02-26_001.jpg)
