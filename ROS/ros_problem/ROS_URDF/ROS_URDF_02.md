@@ -208,3 +208,7 @@ the most important is to set `reference="carema_link"` and the `pose` tag
     </sensor>
   </gazebo>
 ```
+
+Warning:
+
+In this case, **removing the robot with sensors will crash Gazebo in any systemA**. This is a known issue and they are working on solving it. For you as user, when you delete a robot model with sensors, just restart your Gazebo or, in RobotIgniteCase, just go to Unit 0 and come back again, restarting all of the systems.
