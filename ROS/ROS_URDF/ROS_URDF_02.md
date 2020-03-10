@@ -140,7 +140,7 @@ status_message: "DeleteModel: successfully deleted model"
 
 current :
 
-![2020-03-02_005.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-02_005.jpg
+![2020-03-02_005.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-02_005.jpg)
 
 
 ALWAYS WHEN YOU SIGN IN AGAIN IN ROBOT IGNITE ACADEMY, you will have to copy this folder AGAIN. (this is a limitation of our learning platform, not necessary on any other ROS system)
@@ -211,4 +211,4 @@ the most important is to set `reference="carema_link"` and the `pose` tag
 
 Warning:
 
-In this case, **removing the robot with sensors will crash Gazebo in any systemA**. This is a known issue and they are working on solving it. For you as user, when you delete a robot model with sensors, just restart your Gazebo or, in RobotIgniteCase, just go to Unit 0 and come back again, restarting all of the systems.
+In this case, **removing the robot with sensors will crash Gazebo in any system**. This is a known issue and they are working on solving it. For you as user, when you delete a robot model with sensors, just restart your Gazebo or, in RobotIgniteCase, just go to Unit 0 and come back again, restarting all of the systems.
