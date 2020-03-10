@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+
+<robot name="mira">
+    <link name="base_link">
+        <visual>
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <geometry>
+            <cylinder radius="0.06" length="0.1" />
+        </geometry>
+        </visual>
+    </link>
+     <link name="roll_M1_link">
+        <visual>
+        <origin rpy="0 0 0" xyz="0 0 0" />
+        <geometry>
+            <cylinder radius="0.06" length="0.1" />
+        </geometry>
+        </visual>
+    </link>
+    <joint name="roll_joint" type="revolute">
+        <parent link="base_link" />
+        <child link="roll_M1_link" />
+        <origin xyz="0.0023 0 -0.0005" rpy="0 0 0" />
+        <limit lower="-0.2" upper="0.2" effort="0.1" velocity="0.005" />
+        <axis xyz="1 0 0" />
+    </joint>  
+</robot>
