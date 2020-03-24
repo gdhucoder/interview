@@ -79,3 +79,15 @@ irobot_control.yaml 文件中已经有pi_robot这个参数了。 如果有多个
 
 
 ![2020-03-16_003.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-16_003.jpg)
+
+如何定义机器人模型，对应定义了robot state publisher
+
+- URDF文件可以在单个文件中定义所有要用的，也可以使用几个文件分开定义。
+- URDF文件可以分成3部分：链接定义，关节定义，材料和颜色定义。
+
+Links Definition, Joints Denifition, Materials/Colors Definition
+
+
+![2020-03-24_000.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-24_000.jpg)
+
+![2020-03-24_001.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-24_001.jpg)
