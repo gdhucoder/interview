@@ -129,6 +129,74 @@ package_name_gazebo
 </launch>
 ```
 
+一个更大的world model
+
+```xml
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <world name="room">
+    <include>
+      <uri>model://sun</uri>
+    </include>
+    
+    <include>
+      <uri>model://lc_floor</uri>
+    </include>
+    
+    <include>
+      <uri>model://lc_bookshelf</uri>
+      <pose>2.05631 1.69254 0.680848 0 -0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://lc_cabinet</uri>
+      <pose>-1.38001 1.70508 0.822405 0 -0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://lc_can</uri>
+      <pose>-1.19744 1.39146 0.38114 0.010228 -0.003607 0.004857</pose>
+    </include>
+    
+    <include>
+      <uri>model://lc_shelf</uri>
+      <pose>0.50964 1.65593 1.01491 0 -0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://lc_sofa</uri>
+      <pose>0.542039 -0.822537 0.200018 0 -0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://lc_table</uri>
+      <pose>0.530494 0.266919 -0.197504 0 -0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://lc_tv</uri>
+      <pose>0.500186 1.70152 0.676686 0 -0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://lc_tv_stand</uri>
+      <pose>0.570066 1.54442 0.167182 0 -0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://wallEast</uri>
+      <pose>2.57702 0.000715 -0.01458 0 -0 0</pose>
+    </include>
+    
+    <include>
+      <uri>model://wallNorth</uri>
+      <pose>0.243646 1.7884 0.702708 0 -0 0</pose>
+    </include>
+    
+  </world>
+</sdf>
+```
+
 ### 启动gazebo
 
 `roslaunch two_wheels_description my_chair.launch`
