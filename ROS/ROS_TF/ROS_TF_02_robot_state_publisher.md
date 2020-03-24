@@ -91,3 +91,47 @@ Links Definition, Joints Denifition, Materials/Colors Definition
 ![2020-03-24_000.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-24_000.jpg)
 
 ![2020-03-24_001.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-24_001.jpg)
+
+
+```yaml
+pi_robot:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+   
+  left_shoulder_forward_joint_position_controller:
+    type: effort_controllers/JointPositionController
+    joint: left_shoulder_forward_joint
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+```
+
+在文件开始要加一个机器人名字，例如pi_robots
+
+使用rqt_gui查看controllers的状态
+
+两个机器人tf树🌲
+
+![2020-03-24_012.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-24_012.jpg)
+
+静态变换 Static Transform
+
+`rosrun tf static_transform_publisher x y z yaw pitch roll frame_id child_frame_id period_in_ms`
+
+也可以创建文件：
+
+```xml
+<launch>
+    <node pkg="tf" type="static_transform_publisher" name="name_of_node" 
+          args="x y z yaw pitch roll frame_id child_frame_id period_in_ms">
+    </node>
+</launch>
+```
+
+从图上可以看出，这两个机器人的tf变换没有连到一起
+
+![2020-03-24_014.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-24_014.jpg)
+
+![2020-03-24_013.jpg](https://gitee.com/gdhu/testtingop/raw/master/2020-03-24_013.jpg)
+
+This way, you can now connect various robots together, without defining them in the same model.urdf.
