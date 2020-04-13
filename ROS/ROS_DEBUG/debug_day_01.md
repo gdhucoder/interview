@@ -3,6 +3,10 @@ Stop Robot
 
 rostopic pub /cmd_vel geometry_msgs/Twist
 
+Reset Gazebo world
+
+rosservice call /gazebo/reset_world
+
 ```python
 #! /usr/bin/env python
 import rospy
