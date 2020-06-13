@@ -4,8 +4,8 @@ import net.jcip.annotations.ThreadSafe;
  * Created by HuGuodong on 2020/6/8.
  */
 public class T03_01_NoVisibility {
-  private static boolean ready;
-  private static int number;
+  private static boolean ready = false;
+  private static int number = 0;
   private static class ReaderThread extends Thread{
     public void run(){
       while (!ready){
@@ -16,10 +16,12 @@ public class T03_01_NoVisibility {
   }
 
   public static void main(String[] args) throws InterruptedException {
-
-    new ReaderThread().start();
-//    Thread.sleep(10);
-    number = 42;
     ready = true;
+    new ReaderThread().start();
+
+
+        Thread.sleep(10);
+    number = 42;
+
   }
 }
