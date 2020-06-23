@@ -13,6 +13,10 @@
 
 ### 程序员练级攻略
 
-建立一个网站 done
+#### 入门感觉一下
+
+建立一个网站 done [MDN 的 Web 开发入门](https://developer.mozilla.org/zh-CN/docs/Learn/Getting_started_with_the_web)
+
+#### 
 
 
