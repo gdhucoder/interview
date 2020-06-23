@@ -4,4 +4,15 @@
 
 [数据库设计那点事笔记](https://github.com/gdhucoder/interview/tree/master/javabd/DB)
 
-## 
+## Java 程序员准备
+
+### 操作系统
+
+### SQL
+
+
+### 程序员练级攻略
+
+建立一个网站 done
+
+
