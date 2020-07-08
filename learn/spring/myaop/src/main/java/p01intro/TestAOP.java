@@ -1,5 +1,6 @@
 package p01intro;
 
+import java.util.concurrent.CopyOnWriteArrayList;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
@@ -14,5 +15,6 @@ public class TestAOP {
     // AOP proxy
     EmployeeManager manager = context.getBean(EmployeeManager.class);
     manager.getEmployeeById(1);
+    CopyOnWriteArrayList c  = new CopyOnWriteArrayList();
   }
 }
