@@ -13,4 +13,14 @@ Born August 19, 1923, Portland, UK; invented the first abstract model for databa
 
 [Edgar Frank Codd](https://history.computer.org/pioneers/codd.html)
 
-2. 
+2. 数据库事务命令
+
+COMMIT：保存数据库事务
+ROLLBACK：撤销数据库事务
+SAVEPOINT：在一组事务里创建标记点以用于回退（ROLLBACK）
+SET TRANSACTION：设置事务名称
+
+3. 表的构成
+
+NULL： 表示没有值
+
