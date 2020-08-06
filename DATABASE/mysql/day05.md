@@ -45,3 +45,4 @@ mysql> select * from products_tmp;
 2 rows in set (0.00 sec)
 
 ```
+
