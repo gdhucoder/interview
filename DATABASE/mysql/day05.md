@@ -45,4 +45,25 @@ mysql> select * from products_tmp;
 2 rows in set (0.00 sec)
 
 ```
+```sql
+insert into PRODUCTS_TBL (PROD_ID, PROD_DESC, COST)
+values ('301', 'FIREMAN COSTUME', 24.99);
+
+insert into PRODUCTS_TBL (PROD_ID, PROD_DESC, COST)
+values ('302', 'PLICEMAN COSTUME', 24.99);
+
+insert into PRODUCTS_TBL (PROD_ID, PROD_DESC, COST)
+values ('303', 'KIDDIE GRAB BAG', 4.99);
+
+-- OK
+
+update PRODUCTS_TBL
+set COST = 29.99 -- (select COST from PRODUCTS_TBL where PROD_DESC = 'WITCH COSTUME')
+where PROD_ID in ('301', '302');
+
+-- 07:41:34	update PRODUCTS_TBL set COST = (select COST from PRODUCTS_TBL where PROD_DESC = 'WITCH COSTUME') where PROD_ID in ('301', '302')	Error Code: 1093. You can't specify target table 'PRODUCTS_TBL' for update in FROM clause	0.0024 sec
+
+delete from PRODUCTS_TBL t where t.PROD_ID in ('301', '302', '303');
+
+```
 
