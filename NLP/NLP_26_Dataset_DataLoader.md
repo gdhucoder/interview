@@ -6,4 +6,3 @@ https://console.cloud.google.com/iam-admin/quotas/details;servicem=compute.googl
 
 
 conda install pytorch torchvision torchaudio cpuonly -c pytorch
-
