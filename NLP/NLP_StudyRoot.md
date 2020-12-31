@@ -13,4 +13,3 @@ Python短时间完全上手，很简单。深度学习&NLP基础了解深度学�
 了解Transformer、BERT（尽量会使用）（1周）
 
 了解GNN（了解GCN、GAT等）（1周）
-
