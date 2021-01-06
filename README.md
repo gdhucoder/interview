@@ -1,10 +1,12 @@
 # 专业知识积累
 
-## NLP
+## 自然语言处理
 
 [NLP](./NLP)
 
-[FAST-AI-NLP](./NLP/fastainlp)
+[fastai-nlp](./NLP/fastainlp)
+
+[Python深度学习基于PyTorch](./NLP/nlp101)
 
 
 ## 数据库相关
