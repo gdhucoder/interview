@@ -2,7 +2,7 @@
 
 Python短时间完全上手，很简单。深度学习&NLP基础了解深度学习神经网络基础数学知识（正向传播、反向传播、梯度下降、激活函数、softmax、损失函数等各种细节）（1周）
 
-掌握CNN，并写一个文本分类器，调参到最佳值（推荐：论文Convolutional Neural Networksfor Sentence Classification，使用深度学习框架PyTorch）（2周）
+掌握CNN，并写一个文本分类器，调参到最佳值（推荐：论文Convolutional Neural Networks for Sentence Classification，使用深度学习框架PyTorch）（2周）
 
 掌握RNN、LSTM，并写一个分类器，调参，得到新的结果。（1周）
 
