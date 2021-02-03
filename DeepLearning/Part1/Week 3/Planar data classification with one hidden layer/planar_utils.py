@@ -34,6 +34,32 @@ def sigmoid(x):
     s = 1/(1+np.exp(-x))
     return s
 
+def relu(x):
+    """
+    Relu function
+
+    Arguments:
+    x -- A scalar or numpy array of any size.
+
+    Return:
+    relu(x)
+    """
+    return x * (x > 0)
+
+def drelu(x):
+    """
+    Relu function derivative
+
+    Arguments:
+    x -- A scalar or numpy array of any size.
+
+    Return:
+    drelu(x)
+    """
+    x[x<=0] = 0 
+    x[x>0] = 1
+    return x
+
 def load_planar_dataset():
     np.random.seed(1)
     m = 400 # number of examples
